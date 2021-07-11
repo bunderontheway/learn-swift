@@ -1,0 +1,40 @@
+Quiz 1
+
+Question 1
+let broke = balance <= 0 ? true : false
+
+A binary and ternary operator
+
+Alasan: karena dia targetnya ada tiga, sehingga masuk ternary
+//kok masih belum paham ya, ntar coba review lagi binary unary dan ternary
+
+Question 2
+Which of theese will cause a compile error?
+
+let length: Float = 10.5
+let width: Double = 5
+let area = length * width
+
+Alasan: Operator "*" tidak bisa diimplementasikan dengan beda tipe Float dan Double
+	untuk operator "*" bisa dilakukan dengan float dan float, double dan double
+
+
+Question 3
+Which of theese is the proper syntax for a function?
+
+func area(length: Int32, width: Int32) -> Int {
+	return Int(length * width)
+}
+
+
+Question 4
+Which of these is invalid syntax
+
+none of the above
+
+Question 5
+let dictionary = ["EARTH" : 16]
+
+An inferred type declaration
+
+Alasan: 
