@@ -9,7 +9,8 @@ class socialMedia {
         return post
 	}
 
-	func postPicture(pict: String) -> String {
+	func postPicture(_ pict: String) -> String { //underscore pada parameter diberikan untuk menghilangkan parameter eksternal
+	//sehingga pada pemanggilan fungsi nantinya tidak perlu memasukkan parameter pict, bisa dilakukan langsung mengisi value
 	    let picts = pict
 	    return picts
 	}
@@ -35,7 +36,7 @@ class insta: socialMedia {
 		bio = "capture using nikon"
 		print("username: " + userName!)
 		print("bio: " + bio!)
-		print(postPicture(pict: "ini foto"))
+		print(postPicture("ini foto"))
 	}
     
 }
