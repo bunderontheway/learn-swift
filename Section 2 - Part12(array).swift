@@ -55,5 +55,6 @@ var boolArray: [Bool] = Array(repeating: false, count: 5) // [false, false, fals
 var customIntArray = [1,4,5,7,10,2,4,5,34,33,11,13,17]
 customIntArray[0] = 2 //mengganti array ke 0 dengan angka 2
 customIntArray[customIntArray.count-1] = 11 //mengganti nilai array dari belakang, index paling akhir
+customIntArray[0...5] = [0,0,0,0,0]
 
 print(customIntArray)
