@@ -11,7 +11,7 @@ var employeeSalaries: [Double] = [45000.0,54000.0,100000.0,20000.0]
 
 
 
-print(employeeSalaries.count)
+print(employeeSalaries.count) // .count digunakan untuk menghitung jumlah array yang ada di dalam variable
 employeeSalaries.append(39000.34) // .append digunakan untuk menambahkan data ke dalam existing array
 
 print(employeeSalaries.count)
