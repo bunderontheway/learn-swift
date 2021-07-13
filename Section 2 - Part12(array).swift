@@ -36,3 +36,24 @@ stundents.append("Smith")
 students.remove(at: 2)
 
 print(students)
+
+
+//cara membuat array yang memiliki nilai yang sama
+var intArray: [Int] = Array(repeating: 10, count: 5)
+print(intArray) //prints [10, 10, 10, 10, 10]
+print(intArray[5])
+
+var strArray: [String] = Array(repeating: "Budi", count: 100)
+print(strArray)
+
+
+var boolArray: [Bool] = Array(repeating: false, count: 5) // [false, false, false, false, false]
+
+
+//cara mengganti nilai pada array
+
+var customIntArray = [1,4,5,7,10,2,4,5,34,33,11,13,17]
+customIntArray[0] = 2 //mengganti array ke 0 dengan angka 2
+customIntArray[customIntArray.count-1] = 11 //mengganti nilai array dari belakang, index paling akhir
+
+print(customIntArray)

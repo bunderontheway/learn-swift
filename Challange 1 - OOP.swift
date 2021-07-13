@@ -23,8 +23,8 @@ class twit: socialMedia {
 		userName = "bunder"
 		bio = "hai"
 		print("username: " + userName!)
-		print("bio: " + bio!)
-		print(postText(theText: "ini twit pertama saya"))
+		//print("bio: " + bio!)
+		//print(postText(theText: "ini twit pertama saya"))
 	}
 }
 
@@ -35,16 +35,21 @@ class insta: socialMedia {
 		userName = "galery"
 		bio = "capture using nikon"
 		print("username: " + userName!)
-		print("bio: " + bio!)
-		print(postPicture("ini foto"))
+		//print("bio: " + bio!)
+		//print(postPicture("ini foto"))
 	}
-    
+
 }
 
 
+let tes = twit()
+print(tes.postText(theText: "ini twit pertama saya"))
 
-let tes2 = twit()
-print(tes2)
+let tes2 = insta()
+print(tes2.postPicture("ini foto"))
 
-let tes = insta()
-print(tes)
+/*
+let socialmedia = socialMedia()
+print(socialmedia.postText(theText: "ini twit pertama saya"))
+print(socialmedia.postPicture("ini foto"))
+*/
